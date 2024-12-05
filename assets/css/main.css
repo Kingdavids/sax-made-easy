@@ -1,0 +1,252 @@
+.html {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+body{
+ 
+}
+
+.top-container{
+width: 1440px;
+height: 630px;
+margin: 20px;
+}
+
+.left-box{
+    vertical-align: top;
+    display: inline-block;
+    width: 70%;
+    height: 100%;
+}
+
+.navbar{
+    vertical-align: top;
+    margin-left: 5%;
+    
+}
+
+.logo{
+    width: 80px;
+    float: left;
+    margin-left: 5%;
+    text-decoration: none;
+
+}
+.navbar ul li{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    color: black;
+    text-align: center;
+    margin-left: 10%;
+    margin-top: 20px;
+    
+
+}
+
+.author{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 20%;
+    margin-left: 10%;
+    margin-bottom:0;
+}
+.sax{
+    font-family: Arial;
+    font-size: 40px;
+    font-weight: bolder;
+    margin:2px;
+    margin-left: 10%;
+}
+
+.easy{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    margin:0;
+    margin-left: 10%;
+}
+
+.slogan{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 10%;
+}
+
+.buttons{
+    margin-top:18%;
+    margin-left: 55%;
+   
+}
+
+.iOSbutton{
+    color: white;
+    background-color: black;
+    padding: 5px;
+    font-size: x-small;
+    border-radius: 30px;
+}
+.iOS-icon{
+    width: 10px;
+    margin-right: 5px;
+}
+
+.right-box{
+    display: inline-block;
+    height: 100%;
+    width: 20%;
+}
+
+.middle{
+    display: block;
+    margin-left: 20%;
+    margin-right: auto;
+    margin-top: 105px;
+    width: 60%;
+
+}
+.about-us{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:100;
+    text-align: center;
+    width: 45%;
+    margin-left: 5%;
+}
+
+.third-container{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    width:30%;
+    margin-top: 10%;
+    margin-left: 20%;
+
+}
+
+.all-courses{
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+
+}
+.easy-to-use{
+    float: left;
+    width: 15%;
+    margin-left: 5%;
+    margin-top: 10%;
+}
+.easy-to-use-icon{
+    width: 20%;
+}
+
+.learning-pace{
+    float: left;
+    width: 15%;
+    margin-left: 10%;
+    margin-top: 10%;
+    vertical-align: top;
+}
+.learning-pace-icon{
+    width: 20%;
+}
+
+.free-video{
+    float: left;
+    width: 15%;
+    margin-left: 10%;
+    margin-top: 10%;
+    vertical-align: top;
+}
+.free-video-icon{
+    width: 20%;
+}
+
+.our-instructors{
+    text-align:center;
+    margin-top: 25%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.instructor-photo{
+    width: 40%;
+   
+}
+
+.main-header{
+    margin-top: 7%;
+    margin-left: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+}
+.all-packages{
+
+}
+
+.beginner-package{
+    float: left;
+    background-color: rgb(226, 226, 221);
+    width: 15%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 5%;
+
+}
+.beginner-image{
+    width: 100%;
+}
+.Intermediate-package{
+    float: left;
+    background-color: rgb(226, 226, 221);
+    width: 15%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 5%;
+
+}
+
+.Intermediate-image{
+    width: 100%;
+}
+
+.all-available-courses{
+    display: flex;
+    width: 50px;
+}
+
+.courses-available-header{
+    margin-top: 30%;
+    font-size: xx-large;
+    justify-content: center;
+    margin-left: 25%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.available-courses-slide{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    width: 15%;
+   
+}
+
+.articulation{
+    background-color: #534e4e;
+    list-style: none;
+    border-radius: 6px;
+    
+}
+
+.articulation-link{
+    text-decoration: none;
+
+
+}
+
+.articulation-image{
+    width: 100%;
+    padding: 3px;
+    box-sizing:border-box
+   
+}
